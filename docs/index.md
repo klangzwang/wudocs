@@ -1,19 +1,25 @@
-# docs/index.md
 ---
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: Adocs
-  text: Static docs template built with VitePress.
-  image:
-    src: /logo-big.svg
-    alt: Adocs logo
-  tagline: A sfdsfsdfsd dsfs dfsdfsd f dsf sdf sd  f s dsdf df s 
-  actions:
-    - theme: brand
-      text: Get Started
-      link: /get-started
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/evavic44/adocs-template
+  name: "WitherUtils"
+  text: "Documentation"
+  # tagline: Welcome Blockhead tagline
+  # actions:
+    # - theme: brand
+      # text: Markdown Examples
+      # link: /markdown-examples
+    # - theme: alt
+      # text: API Examples
+      # link: /api-examples
+
+# features:
+  # - title: Feature A
+    # details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - title: Feature B
+    # details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - title: Feature C
+    # details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
