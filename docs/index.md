@@ -8,7 +8,7 @@ hero:
   image:
     src: /logo-big.svg
     alt: Adocs logo
-  tagline: A free to use template for creating docs for your projects
+  tagline: A sfdsfsdfsd dsfs dfsdfsd f dsf sdf sd  f s dsdf df s 
   actions:
     - theme: brand
       text: Get Started
