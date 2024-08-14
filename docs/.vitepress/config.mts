@@ -1,28 +1,56 @@
-import { defineConfig } from 'vitepress'
+import
+{
+	defineConfig
+}
+from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: "WitherUtils Documentation",
-  description: "Documentation for BlockHeads",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+export default defineConfig
+({
+	title: "WitherUtils",
+	description: "Documentation",
+	themeConfig:
+	{
+		nav:
+		[{
+			text: 'GetStarted', link: '/getstarted' },
+			{
+				text: 'Content',
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+			items: [
+			{
+				text: 'Blocks', link: '/blocks'
+			},
+			{
+				text: 'Items', link: '/items'
+			},
+			{
+				text: 'Player', link: '/player'
+			}
+			]
+		}],
+		
+		logo: './theme/logo.svg',
+		
+//		sidebar:
+//		[
+//			{
+//				text: 'Examples',
+//				items:
+//				[
+//					{
+//						text: 'Markdown Examples', link: '/markdown-examples'
+//					},
+//					{
+//						text: 'Runtime API Examples', link: '/api-examples'
+//					}
+//				]
+//			}
+//		],
+		socialLinks:
+		[
+			{
+				icon: 'github', link: 'https://github.com/klangzwang'
+			}
+		]
+	}
 })
